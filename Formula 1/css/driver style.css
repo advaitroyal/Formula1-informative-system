@@ -1,0 +1,47 @@
+#content{
+	color: white;
+}
+
+#driver{
+	margin-top: 10px;
+	height: 300px;
+}
+
+#driverImage{
+	float: left;
+	height: 97%;
+	margin: 0px 10px;
+}
+
+#driverInfo{
+	font-size: 1.3em;
+}
+
+.infoLabel{
+	color: #CCCCCC;
+}
+
+.infoValue{
+	color: #9E9E9E;
+}
+
+/* Breakpoints */
+@media screen and (max-width: 906px) {
+	#driverInfo{
+		font-size: 1.15em;
+	}
+}
+
+@media screen and (max-width: 785px) {
+	#driver{
+		padding: 10px;
+		height: 100%;
+	}
+
+	#driverImage{
+		display: block;
+		height: 300px;
+		margin: 0 auto;
+		float: none;
+	}
+}

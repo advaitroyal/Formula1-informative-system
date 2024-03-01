@@ -1,0 +1,46 @@
+label{
+	color: white;
+}
+
+section{
+	margin: 0 auto;
+	width: 500px;
+}
+
+.flatBtn{
+	padding: 10px 40px;
+	font-size: 1.2em;
+}
+
+.flatTextbox{
+	padding: 10px 0px 10px 5px;
+}
+
+form{
+	width: 100%;
+	margin-top: 10px;
+	background-color: rgba(15, 15, 15, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+form div:first-of-type input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+form div:first-of-type label{
+	font-size: 1.2em;
+}
+
+form > div input.flatBtn{
+	border-bottom-right-radius: 15px;
+}
+
+/* Breakpoints */
+@media screen and (max-width: 571px) {
+	section{
+		margin: 0 auto;
+		width: 350px;
+	}
+}

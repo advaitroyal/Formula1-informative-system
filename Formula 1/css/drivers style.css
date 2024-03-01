@@ -1,0 +1,43 @@
+#drivers{
+	padding: 50px;
+}
+
+.list{
+	width: 100%;
+	height: 100%;
+}
+
+.listItem{
+	position: relative;
+}
+
+.verticalRow{
+	margin-top: 10px;
+}
+
+.listItemDetails{
+	width: 100%;
+}
+
+.flatBtn{
+	padding: 20px;
+}
+
+.moreInfoForm{
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	margin-top: -30px;
+}
+
+/* Drivers breakpoints */
+@media screen and (max-width: 560px) {
+	.listItemName{
+		font-size: 0.8em;
+	}
+
+	.listItemTeam{
+		font-size: 0.9em;
+	}
+}

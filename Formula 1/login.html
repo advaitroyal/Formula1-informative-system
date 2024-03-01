@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Formula One - Login</title>
+        <link rel="stylesheet" href="css/shared style.css">
+        <link rel="stylesheet" href="css/login style.css">
+    </head>
+    <body>
+    	<header>
+    		<div id="navLogo">
+	        	<img src="images/logo-round.png" alt="F1 logo">
+	       	</div>
+    		<nav>
+	            <ul>
+	                <li><a href="index.html">HOME</a></li>
+	            	<li><a href="drivers.html">DRIVERS</a></li>
+	             	<li><a href="teams.html">TEAMS</a></li>
+	             	<li><a class="active" href="#">LOGIN</a></li>
+	            </ul>
+	        </nav>
+	    </header>
+
+	    <section>
+	   		<div class="listTitle">
+				<img src="images/icon-stribes.png" alt="top stribes">
+				<h2>LOGIN</h2>
+			</div>
+
+			<form action="connect.php" method="post">
+				<div>
+					<label for="username">Username:</label>
+					<input class="flatTextbox" name="username" type="text" placeholder="Enter your username..."><br>
+
+					<label for="password">Password:</label>
+					<input class="flatTextbox" name="password" type="password" placeholder="Enter your password...">
+				</div>
+
+				<div class="bottomRow">
+	   				<input class="flatBtn" type="submit" value="Login">
+				</div>
+			</form>
+		</section>
+    	<div id="bgImage"></div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

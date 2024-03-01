@@ -1,0 +1,73 @@
+.centerHorizontalRow{
+	padding: 50px;
+}
+
+#upcomingTrack{
+	width: 330px;
+	min-width: 330px;
+	min-height: 450px;
+}
+
+#trackContentWrapper{
+	padding: 20px;
+	margin-top: 15px;
+	background-color: rgba(20, 20, 20, 0.8);
+}
+
+#trackImage{
+	background-color: #383838;
+	width: 290px;
+	height: 195px;
+}
+
+#trackInfo{
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+#trackName{
+	color: #E0E0E0;
+	font-size: 1.149em;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.trackStat{
+	color: #8F8F8F;
+	line-height: 25px;
+	font-size: 0.75em;
+}
+
+.trackStatName{
+	float: left;
+	clear: both;
+}
+
+.trackStatValue{
+	display:flex;
+	justify-content: flex-end;
+}
+
+/* Breakpoints */
+@media screen and (max-width: 1166px) {
+	#upcomingTrack{
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 834px) {
+	.list{
+		margin-top: 20px;
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	#upcomingTrack{
+		width: 100%;
+	}
+
+	#trackImage{
+		margin: 0 auto;
+		display: block;
+	}
+}
